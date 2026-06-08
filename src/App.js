@@ -12,7 +12,7 @@ const App = () => {
     setTours(newTours);
   }
 
-  if(tours.length==0){
+  if(tours.length===0){
     return (
       <div className="refresh">
         <h2>No Tours Left</h2>
